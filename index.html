@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,6 @@
                 color1: 'rgb(171, 239, 95)',
                 color2: 'rgba(171, 239, 95, 1.00)',
                 color3: 'rgba(171, 239, 95, 0.2)',
-                bdcolor1:'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);',
 
               },
               fontFamily: {
@@ -34,20 +34,36 @@
         }
       </script>  
 </head>
-<body class="font-Manrope bg-bdcolor1">
+<body class="font-Manrope bgcolor">
     <header>
-      <nav>
-        <div>
-          <div class="circle">
-
+      <nav class="flex w-11/12 mx-auto border-2 justify-between mt-12">
+        <div class="flex items-center space-x-2 ">
+          <div class="circle bg-lime-300">
+            <i class="fa-solid fa-arrow-up-long rotate-i"></i>
           </div>
           <h1 class="text-3xl font-extrabold">Rinterio</h1>
 
         </div>
-        <div>
-
+        <div class="flex items-center ">
+          <ul class="flex items-center space-x-5">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
-        <div>
+        <div class="flex items-center space-x-4 ">
+          <div class="flex space-x-5">
+            <i class="fa-solid fa-magnifying-glass bg-white "></i>
+            <i class="fa-solid fa-cart-shopping bg-white "></i>
+          </div>
+          <div class="flex items-center space-x-3 bg-lime-300 rounded-3xl px-4 py-3 shadow-lg">
+            <h2 class="text-xl font-semibold">Book Consult</h2>
+            <div class="circle bg-black rotate-i ">
+              <i class="fa-solid fa-arrow-up-long text-white"></i>
+            </div>
+          </div>
 
         </div>
       </nav>
