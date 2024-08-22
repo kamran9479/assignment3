@@ -44,7 +44,7 @@
           <h1 class="text-3xl font-extrabold">Rinterio</h1>
 
         </div>
-        <div class="flex items-center ">
+        <div class="hidden lg:flex items-center ">
           <ul class="flex items-center space-x-5">
             <li><a href="#">Home</a></li>
             <li><a href="#">Portfolio</a></li>
@@ -53,10 +53,10 @@
             <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
-        <div class="flex items-center space-x-4 ">
+        <div class="hidden lg:flex items-center space-x-4 ">
           <div class="flex space-x-5">
-            <i class="fa-solid fa-magnifying-glass bg-white "></i>
-            <i class="fa-solid fa-cart-shopping bg-white "></i>
+            <i class="fa-solid fa-magnifying-glass bg-white border p-4 rounded-3xl"></i>
+            <i class="fa-solid fa-cart-shopping bg-white border p-4 rounded-3xl"></i>
           </div>
           <div class="flex items-center space-x-3 bg-lime-300 rounded-3xl px-4 py-3 shadow-lg">
             <h2 class="text-xl font-semibold">Book Consult</h2>
@@ -64,13 +64,29 @@
               <i class="fa-solid fa-arrow-up-long text-white"></i>
             </div>
           </div>
-
+        </div>
+        <div class="items-center text-2xl menu bg-white lg:hidden">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
 
     </header>
 
     <main>
+      <section>
+        <div class=" w-11/12 mx-auto">
+          <div class="hero-content  text-center">
+            <div class="text-center">
+              <img class="mx-auto" src="./assets/banner.png" alt="">
+              <h1 class="mb-5 text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+              <p class="mb-5">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+              </p>
+              <button class="px-20 lg: btn rounded-3xl bg-lime-200">Get Started <i class="fa-solid fa-arrow-up-long rotate-i bg-lime-400 p-2 rounded-full"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
 
