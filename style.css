@@ -15,12 +15,6 @@
     padding: 20px;
     background: rgb(255, 255, 255);
 }
-.rotate-i{
-    rotate:30deg;
-}
-.bgcolor{
-    background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-}
 p{
     font-weight: 500;
 }
